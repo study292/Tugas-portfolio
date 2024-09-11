@@ -1,0 +1,71 @@
+.dark-blue{
+    background-color: rgb(115, 0, 255);
+}
+
+.dark-yellow{
+    background-color: rgb(115, 0, 255);
+}
+
+.nav-link:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    transition: 1s;
+}
+
+.bg-subtle{
+    background-color: black;
+}
+
+.bs-danger{
+    background-color: red;
+}
+
+.bs-warning{
+    background-color: yellow;
+}
+
+.White-font{
+    color: white;
+}
+
+.link-gray{
+    text-decoration: none;
+    color: rgb(50, 47, 47);
+}
+
+.justify{
+    text-align: justify;
+}
+
+.radius-1{
+    width: 200px;
+}
+
+@media (max-width: 425px) {
+    .mobile-xl{
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-1{
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tablet-xl{
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024) {
+    .laptop-xl{
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+}
